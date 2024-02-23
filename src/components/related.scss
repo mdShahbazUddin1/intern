@@ -1,0 +1,82 @@
+.related-card {
+  margin-top: 30px;
+
+  .deal-img {
+    width: 100%;
+    text-align: center;
+
+    img {
+      width: 70%;
+    }
+  }
+
+  .limited {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    p {
+      background-color: #f2f4f7;
+      color: #074786;
+      padding: 8px;
+      margin-right: 5px;
+      border-radius: 15px;
+      font-size: 13px;
+    }
+  }
+
+  .title {
+    color: #626e79;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+
+  .desc {
+    padding-top: 8px;
+    color: #626e79;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+
+  .price {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+    p:first-child {
+      font-size: 20px;
+      color: #5c6874;
+      font-weight: bold;
+    }
+
+    p:nth-child(2) {
+      color: #9fa9b3;
+      font-size: 14px;
+    }
+
+    p:nth-child(3) {
+      color: #ef4c5d;
+      font-size: 13px;
+    }
+  }
+
+  .deal-btn {
+    button {
+      background-color: #1b88f4;
+      width: 80%;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: 15px;
+      color: white;
+      font-size: 16px;
+      margin: auto;
+      margin-top: 10px;
+    }
+  }
+}
